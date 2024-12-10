@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input {
+  flex-basis: 80%;
+  height: 30px;
+}
+form button {
+  flex-basis: 20%;
+}
+.outerDiv {
+  width: 1170px;
+  margin: auto;
+}
+.outerDiv ul {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0px;
+}
+.outerDiv ul li {
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+  font-size: 25px;
+  position: relative;
+}
+.outerDiv ul li span {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.comletedtodo {
+  text-decoration: line-through;
+  color: red !important;
+  background-color: yellow !important;
+}
